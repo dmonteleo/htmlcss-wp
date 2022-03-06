@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+ body {
+   font-family: 'Montserrat', sans-serif;
+ }
+
 
 /* UTILITIES */
 
@@ -25,9 +29,14 @@
 /* HEADER */
 
 .banner {
-  background-color: #e579e6;
+  background-color: white;;
   height: 100px;
   margin-bottom: 20px;
+  margin-top: 1px;
+}
+
+.logo {
+  height: 100px;
 }
 
 .bootstrap {
