@@ -30,19 +30,37 @@
 
 .banner {
   background-color: white;;
-  height: 100px;
+  height: 200px;
   margin-bottom: 20px;
   margin-top: 1px;
 }
 
 .logo {
   height: 100px;
+  margin-bottom: 30px;
+}
+
+header .container ul {
+  list-style-type: none;
+  color: #919191;
+}
+
+header .container ul li {
+  float: left;
+  display: inline-block;
+  margin-right: 20px;
+  /* background-color: red; */
 }
 
 .bootstrap {
   background-color: #e1d67a;
   height: 400px;
   margin-bottom: 20px;
+  /* margin-top: 20px; */
+}
+
+.banner {
+  
 }
 
 /* MAIN */
