@@ -46,17 +46,41 @@ header .container ul {
 }
 
 header .container ul li {
-  float: left;
   display: inline-block;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   /* background-color: red; */
+  padding: 5px 10px 5px 0px;
+}
+
+header .container ul li a {
+  text-decoration: none;
+  color: #919191;
+}
+
+header .container ul li a:hover {
+  text-decoration: underline;
+  color: #121212;
 }
 
 .bootstrap {
   background-color: #e1d67a;
-  height: 400px;
+  height: 500px;
   margin-bottom: 20px;
   /* margin-top: 20px; */
+  background-image: url('/assets/img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.darken {
+  background-color: rgba(0, 0, 0, .2);
+  height: 100%;
+  border-radius: 10px;
+}
+
+.darken p {
+  color: white;
+  padding: 
 }
 
 .banner {
