@@ -70,17 +70,28 @@ header .container ul li a:hover {
   background-image: url('/assets/img/banner.jpg');
   background-size: cover;
   background-position: center;
+  /* overflow: hidden; */
 }
 
 .darken {
   background-color: rgba(0, 0, 0, .2);
   height: 100%;
   border-radius: 10px;
+  /* overflow: hidden; */
 }
 
 .darken p {
   color: white;
   /* padding: ; */
+}
+
+.text-bootstrap {
+  padding: 320px 50px;
+  width: 600px;
+}
+
+.text-bootstrap p:first-child {
+  font-size: x-large;
 }
 
 /* .banner {
