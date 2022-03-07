@@ -120,30 +120,35 @@ header .container ul li a:hover {
 }
 
 .main-bottom {
-  height: 400px;
-  background-color: #0886fe;
+  /* height: 400px; */
+  /* background-color: #0886fe; */
+  color: #919191;
+}
+
+.main-bottom h3 {
+  color: black;
 }
 
 .col-right {
   float: right;
   width: 20%;
-  height: 400px;
-  background-color: #abcfe7;
+  /* height: 400px; */
+  /* background-color: #abcfe7; */
   margin-left: 1%;
 }
 
 .col-left {
   float: left;
   width: 20%;
-  height: 400px;
-  background-color: #abcfe7;
+  /* height: 400px; */
+  /* background-color: #abcfe7; */
   margin-right: 1%;
 }
 
 .center {
   width: 58%;
-  height: 400px;
-  background-color: #abcfe7;
+  /* height: 400px; */
+  /* background-color: #abcfe7; */
   float: right;
 }
 
@@ -156,10 +161,41 @@ header .container ul li a:hover {
   color: #919191;
 }
 
+.col-right-picture-box {
+  background-image: url('/assets/img/img-3.jpg');
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.col-left-picture-box {
+  background-image: url('/assets/img/img-1.jpg');
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.center-picture-box {
+  background-image: url('/assets/img/banner-2.jpg');
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
 /* FOOTER */
 
 footer div.container {
   background-color: #8801fe;
   height: 40px;
   margin-bottom: 10px;
+}
+
+.main-bottom img {
+  width: 100%;
+  height: 100px;
 }
